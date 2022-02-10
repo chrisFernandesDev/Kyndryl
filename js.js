@@ -51,7 +51,7 @@ function pegaDados() {
 }
 
 function splitString(stringToSplit, separator) {
-    var arrayOfStrings = stringToSplit.split(separator);
+    let arrayOfStrings = stringToSplit.split(separator);
     return arrayOfStrings;
 }
 
