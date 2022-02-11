@@ -14,6 +14,8 @@ function pegaDados() {
     let contador = 0;
     let nomeEmail = [];
 
+    nomes = nomes.toLowerCase();
+
     nomes = removeCaracter(nomes, caracteres);
     let listaNomes = splitString(nomes, separador);
 
