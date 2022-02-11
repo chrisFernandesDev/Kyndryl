@@ -44,8 +44,8 @@ function pegaDados() {
 
         email[i] = email[i] + dominio;
 
-        nomeEmail[i] = " " + listaNomes[i] + " &#60;" + email[i]  + "&#62;";
-        
+        nomeEmail[i] = " " + listaNomes[i] + " &#60;" + email[i] + "&#62;";
+
         segundoNome = "";
         primLetraSeg = "";
     }
@@ -84,7 +84,7 @@ function validarDuplicidade(ID, listaID) {
     return count;
 }
 
-function limpar(){
+function limpar() {
     document.getElementById("nomes").value = " ";
     document.getElementById("nomeEmail").innerHTML = " ";
 }
