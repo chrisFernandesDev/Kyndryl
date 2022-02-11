@@ -1,5 +1,5 @@
 # Kyndryl
-Projeto JavaScript
+Projeto JavaScript - Teste - Front-end Jr.
 
 Critérios de analise:
 *Não deve haver emails repetidos
